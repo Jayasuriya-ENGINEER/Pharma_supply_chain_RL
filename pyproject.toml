@@ -1,0 +1,13 @@
+[project]
+name = "psce-env"
+version = "0.1.0"
+description = "Pharma Supply Chain Disruption Environment (PSCE)"
+authors = [{ name = "Suriya" }]
+requires-python = ">=3.10"
+
+[tool.setuptools]
+packages = ["env", "api", "tasks", "graders"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
